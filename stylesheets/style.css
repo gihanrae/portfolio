@@ -535,6 +535,10 @@ footer p {
     gap: 0.45rem;
 }
 
+.timeline-date b {
+    color: #FFD54A;
+}
+
 .tech-badge svg {
     width: 14px;
     height: 14px;
