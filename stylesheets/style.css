@@ -184,15 +184,20 @@ nav a:hover, nav a.active {
 
 .contacts-grid {
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: flex-start;
 }
 
-.contact-link, .contact-item {
+.contact-link,
+.contact-item {
     display: inline-flex;
     align-items: center;
     gap: 0.6rem;
-    padding: 0.75rem 1.5rem;
+    padding: 0.6rem 1rem;
+    width: fit-content;
+    min-width: 0;
+
     border-radius: 0;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid var(--border-color);
@@ -200,7 +205,7 @@ nav a:hover, nav a.active {
     text-decoration: none;
     font-weight: 500;
     font-size: 0.95rem;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.3s ease;
 }
 
 .contact-link {
