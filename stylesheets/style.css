@@ -543,6 +543,25 @@ footer p {
     transition: transform 0.3s ease;
 }
 
+.presentation-btn {
+    background: rgba(255, 193, 7, 0.15);
+    border: 1px solid #ffc107;
+    color: #ffc107;
+    font-weight: 600;
+}
+
+.presentation-btn:hover {
+    background: #ffc107;
+    color: #111;
+    transform: translateY(-2px);
+}
+
+.presentation-btn::after {
+    content: " ↗";
+    font-size: 0.9em;
+}
+
+
 .tech-badge:hover {
     color: var(--accent-blue);
     border-color: var(--border-hover);
