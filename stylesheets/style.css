@@ -40,6 +40,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     position: relative;
+
 }
 
 /* Cosmic background elements */
@@ -193,7 +194,7 @@ nav a:hover, nav a.active {
     display: inline-flex;
     align-items: center;
     gap: 0.6rem;
-    padding: 0.4rem 1rem;
+    padding: 0.6rem 1rem;
     width: fit-content;
     min-width: 0;
 
@@ -428,8 +429,8 @@ nav a:hover, nav a.active {
 
 /* Footer */
 footer {
-    padding: 3rem 0;
-    margin-top: 6rem;
+    padding: 1rem 0;
+    margin-top: 1rem;
     border-top: 1px solid var(--border-color);
     text-align: center;
     color: var(--text-muted);
@@ -540,13 +541,13 @@ footer p {
 
 .profile-avatar {
     display: block;
-    width: 120px;
-    height: 120px;
+    width: 230px;
+    height: 230px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 100%;
     border: 3px solid var(--accent-blue);
     margin: 1rem 0 1.5rem;
-    box-shadow: 0 0 18px rgba(0, 210, 255, 0.25);
+    box-shadow: 0 0 50px rgba(0, 210, 255, 0.25);
 }
 
 .tech-badge svg {
